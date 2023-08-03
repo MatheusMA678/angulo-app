@@ -1,6 +1,6 @@
 'use client'
 import React, { useEffect, useState } from "react";
-import "../app/globals.css"; // Importe o arquivo CSS externo
+import "../styles/globals.css";
 import Image from "next/image";
 
 export default function Ligas() {

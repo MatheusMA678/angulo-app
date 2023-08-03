@@ -1,6 +1,6 @@
 
 'use client'
-import "../app/globals.css";
+import "../styles/globals.css";
 import { Button, ButtonGroup, CardMedia } from '@mui/material';
 import Card from '@mui/material/Card';
 import CheckIcon from '@mui/icons-material/Check';

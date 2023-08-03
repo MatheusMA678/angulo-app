@@ -1,6 +1,6 @@
 
 'use client'
-import "../app/globals.css";
+import "../styles/globals.css";
 import { Button, ButtonGroup, CardMedia } from '@mui/material';
 import { useEffect, useState } from "react";
 import React from "react";
