@@ -1,6 +1,6 @@
 'use client'
 import React, { useEffect, useState } from "react";
-import '../app/styles.css'
+import '../app/styles/style.css'
 import Image from "next/image";
 
 export default function Ligas() {

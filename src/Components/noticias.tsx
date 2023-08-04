@@ -1,4 +1,4 @@
-import '../app/styles.css'
+import '../app/styles/style.css'
 import Link from "next/link"
 
 export default function Noticias(){
