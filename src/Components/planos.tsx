@@ -1,6 +1,6 @@
 
 'use client'
-import '../app/styles/styles.css'
+import '../../styles/styles.css'
 import { Button, ButtonGroup} from '@mui/material';
 import {  useState } from "react";
 import React from "react";
