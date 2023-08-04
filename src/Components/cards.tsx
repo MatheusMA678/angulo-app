@@ -1,10 +1,10 @@
 
 'use client'
 import '../app/styles/styles.css'
-import { Button, ButtonGroup, CardMedia } from '@mui/material';
+import { Button,  CardMedia } from '@mui/material';
 import Card from '@mui/material/Card';
 import CheckIcon from '@mui/icons-material/Check';
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 

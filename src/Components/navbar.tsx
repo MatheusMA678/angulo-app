@@ -1,7 +1,7 @@
 'use client'
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import { Button, Menu, MenuItem } from "@mui/material";
+import { Button} from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
 
 
