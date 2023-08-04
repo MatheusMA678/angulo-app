@@ -1,6 +1,6 @@
 
 'use client'
-import '../app/styles/styles.css'
+import '../app/styles.css'
 import { Button,  CardMedia } from '@mui/material';
 import Card from '@mui/material/Card';
 import CheckIcon from '@mui/icons-material/Check';

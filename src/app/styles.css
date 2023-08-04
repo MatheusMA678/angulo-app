@@ -55,7 +55,7 @@
 } */
 
 .plano-de-fundo2{
-  background-image:linear-gradient(to right, rgba(0, 0, 0, 0.721), rgba(0, 0, 0, 0.721)),  url(../../../public/imagens/map.jpg);
+  background-image:linear-gradient(to right, rgba(0, 0, 0, 0.721), rgba(0, 0, 0, 0.721)),  url(../../public/imagens/map.jpg);
   background-size: cover;
   background-repeat: no-repeat;
  
@@ -103,7 +103,7 @@
 .azul{
   /* background-image:linear-gradient(to right top #020617) url(../../public/imagens/media.png); */
   /* background-image: url(../../public/imagens/media.png); */
-  background-image: linear-gradient(to right top, rgb(2, 6, 23), rgba(2, 6, 23, 0.800)), url(../../../public/imagens/media.png);
+  background-image: linear-gradient(to right top, rgb(2, 6, 23), rgba(2, 6, 23, 0.800)), url(../../public/imagens/media.png);
 
   background-size: contain;
   background-repeat: no-repeat;
@@ -140,7 +140,7 @@
 
 .chuteira{
   /* background-image: url(../../public/imagens/sinal.jpg); */
-  background-image:linear-gradient(to right, rgba(0, 0, 0, 0.453), rgba(0, 0, 0, 0.653)),  url(../../../public/imagens/sinal.jpg);
+  background-image:linear-gradient(to right, rgba(0, 0, 0, 0.453), rgba(0, 0, 0, 0.653)),  url(../../public/imagens/sinal.jpg);
   background-size: cover;
   height: 100%;
   
@@ -148,14 +148,14 @@
 }
 
 .campeao{
-  background-image: url(../../../public/imagens/sports.jpg);
+  background-image: url(../../public/imagens/sports.jpg);
   background-size: cover;
   height: 100%;
 }
 
 .bg-futsal{
   /* background-image: url(../../public/imagens/tempo.jpg); */
-  background-image:linear-gradient(to right, rgba(0, 0, 0, 0.721), rgba(0, 0, 0, 0.721)),  url(../../../public/imagens/tempo.jpg);
+  background-image:linear-gradient(to right, rgba(0, 0, 0, 0.721), rgba(0, 0, 0, 0.721)),  url(../../public/imagens/tempo.jpg);
   background-size: cover;
   height: 100%;
 
