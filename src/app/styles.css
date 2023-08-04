@@ -28,7 +28,7 @@
 
 .plano-de-fundo{
   /* background-image: linear-gradient(to right, rgba(255, 255, 255, 0.496), rgba(255, 255, 255, 0.496)), url(../../public/imagens/jogo.jpg); */
-  background-image: url(../../../public/imagens/campo.jpg);
+  background-image: url(../../public/imagens/campo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   /* clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%); */
