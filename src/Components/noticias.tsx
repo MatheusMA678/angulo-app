@@ -1,15 +1,6 @@
-import "./styles/styles.css";
-import Image from "next/image"
-import chuteira from "../../public/imagens/chuteira.jpg"
-import liga from "../../public/imagens/liga-angulo.jpg"
-import campeao from "../../public/imagens/campeao.jpg"
-import equipe from "../../public/imagens/equipe.jpg"
+import '../app/styles/styles.css'
 import * as React from 'react';
-import Button from '@mui/material/Button';
 import Link from "next/link"
-
-
-
 
 export default function Noticias(){
 
