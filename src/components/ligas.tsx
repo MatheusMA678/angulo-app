@@ -1,6 +1,6 @@
 'use client'
 import React, { useEffect, useState } from "react";
-import '../app/styles/style.css'
+import '@/app/globals.css'
 import Image from "next/image";
 
 export default function Ligas() {
@@ -42,25 +42,25 @@ export default function Ligas() {
       style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url("/imagens/${currentImage}")` }} // Use o caminho relativo apenas até a pasta "public"
     >
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-        
-    
+
+
         <h1 className="text-4xl text-white font-bold">{currentText}</h1>
         {isLastSlide && (
           <div className="flex w-1/2 items-center justify-center p-2 gap-5 bg-gray-300 bg-opacity-20  mt-5 rounded-md mx-auto">
-              <div className="">
-                  <Image src='/imagens/logo-angulo.png'
-                  alt="Logo da Empresa"
-                  width={100}
-                  height={100}
-                  
-                  />
-              </div>
-              <div>
-                  <h1 className="text-3xl text-white font-bold ">AnguloApp</h1>
-              </div>
+            <div className="">
+              <Image src='/imagens/logo-angulo.png'
+                alt="Logo da Empresa"
+                width={100}
+                height={100}
+
+              />
+            </div>
+            <div>
+              <h1 className="text-3xl text-white font-bold ">AnguloApp</h1>
+            </div>
           </div>
         )}
-  </div>
+      </div>
     </div>
   );
 }

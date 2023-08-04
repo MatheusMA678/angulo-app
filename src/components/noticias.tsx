@@ -1,11 +1,11 @@
-import '../app/styles/style.css'
+import '@/app/globals.css'
 import Link from "next/link"
 
-export default function Noticias(){
+export default function Noticias() {
 
-    
-    return(
-        
+
+    return (
+
         <div className="h-screen flex flex-col items-center justify-center">
             <h1 className="text-4xl font-bold p-6">Fique Atualizado com o AnguloApp</h1>
             <div className="h-full p-4 grid grid-cols-4  gap-2 w-4/5">
@@ -17,15 +17,15 @@ export default function Noticias(){
                                 </h1>
                             </div>
                             <div >
-                               <ul className="list-disc">
+                                <ul className="list-disc">
                                     <li className="">Promessa do futsal regional se destaca na competição.</li>
                                     <li>Desempenho brilhante garante vitória merecida.</li>
-                               </ul>
+                                </ul>
                             </div>
                         </div>
                     </Link>
                 </div>
-        
+
                 <div className=" grid col-span-2 gap-2">
                     <div className="rounded-md campeao transform transition-transform hover:scale-[1.01]">
                         <Link href={"#"}>
@@ -35,10 +35,10 @@ export default function Noticias(){
                                     </h1>
                                 </div>
                                 <div >
-                                   <ul className="list-disc text-white">
+                                    <ul className="list-disc text-white">
                                         <li className="">Simplifique a gestão de ligas com o AnguloApp.</li>
                                         <li>Maior comunidade esportiva do mundo.</li>
-                                   </ul>
+                                    </ul>
                                 </div>
                             </div>
                         </Link>
@@ -51,10 +51,10 @@ export default function Noticias(){
                                     </h1>
                                 </div>
                                 <div >
-                                   <ul className="list-disc text-white">
-                            
+                                    <ul className="list-disc text-white">
+
                                         <li>Competidores se preparam intensamente para a jornada emocionante da Liga, buscando a vitória e superando desafios.</li>
-                                   </ul>
+                                    </ul>
                                 </div>
                             </div>
                         </Link>
