@@ -1,5 +1,5 @@
 'use client'
-import "./styles/globals.css";
+import "./styles/styles.css";
 import Image from "next/image";
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import EmailIcon from '@mui/icons-material/Email';

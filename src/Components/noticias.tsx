@@ -1,4 +1,4 @@
-import "./styles/globals.css";
+import "./styles/styles.css";
 import Image from "next/image"
 import chuteira from "../../public/imagens/chuteira.jpg"
 import liga from "../../public/imagens/liga-angulo.jpg"
